@@ -1,0 +1,19 @@
+makeCacheMatrix <- function(X){
+ 
+  mat <- X[, rev(seq_len(ncol(X)))]
+  
+}
+
+cacheSolve <- function(a, mat){
+  
+  if(all.equal(makeCacheMax <-trix(a), mat))
+  {
+    return(mat)
+  }
+  else
+  {
+    return(makeCacheMatrix(a))
+  }
+}
+
+
